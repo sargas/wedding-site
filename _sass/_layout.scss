@@ -8,6 +8,11 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
+
+	.wrapper { //TODO: this url should be based on baseurl. Fixable?
+		background-image: url(/images/101_1612.JPG);
+		height: 400px;
+	}
 }
 
 .site-title {
