@@ -2,8 +2,6 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
     // Positioning context for the mobile navigation icon
@@ -11,7 +9,23 @@
 
 	.wrapper { //TODO: this url should be based on baseurl. Fixable?
 		background-image: url(/images/101_1612.JPG);
-		height: 400px;
+		height: 240px;
+		width: 100%;
+		background-size: cover;
+
+		border: thin solid black;
+
+		$screen-size-changes: 1000 600;
+		$screen-size-changes-heights: 400 333;
+
+		@each $current-height in $screen-size-changes-heights {
+			$i: index($screen-size-changes-heights, $current-height);
+			$current-size-change: nth($screen-size-changes, $i);
+
+			@media only screen and (min-width : #{$current-size-change}px) {
+				height: #{$current-height}px;
+			}
+		}
 	}
 }
 
@@ -29,7 +43,7 @@
 }
 
 .site-nav {
-    float: right;
+    float: left;
     line-height: 56px;
 
     .menu-icon {
@@ -49,15 +63,15 @@
     @include media-query($on-palm) {
         position: absolute;
         top: 9px;
-        right: 30px;
-        background-color: $background-color;
+        left: 10px;
+        background-color: white;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
 
         .menu-icon {
             display: block;
-            float: right;
+            float: left;
             width: 36px;
             height: 26px;
             line-height: 0;
@@ -99,6 +113,7 @@
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+	background-color: orchid;
 }
 
 .footer-heading {
@@ -167,7 +182,11 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+
+	.wrapper {
+		border: thin solid black;
+		background-color: orchid;
+	}
 }
 
 .page-heading {

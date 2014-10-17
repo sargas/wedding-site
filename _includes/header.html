@@ -1,9 +1,6 @@
 <header class="site-header">
 
   <div class="wrapper">
-    <!-- <img src="{{ site.baseurl }}/images/101_1612.JPG" alt="Picture of happy couple" id="header-picture" /> -->
-
-	<a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
 	<nav class="site-nav">
 	  <a href="#" class="menu-icon">
@@ -15,7 +12,7 @@
 	  </a>
 
 	  <div class="trigger">
-		{% for page in site.pages %}
+		{% for page in site.data.pages %}
 		  {% if page.title %}
 		  <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
 		  {% endif %}
