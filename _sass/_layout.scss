@@ -7,26 +7,26 @@
     // Positioning context for the mobile navigation icon
     position: relative;
 
-	.wrapper { //TODO: this url should be based on baseurl. Fixable?
-		background-image: url(/images/101_1612.JPG);
-		height: 240px;
-		width: 100%;
-		background-size: cover;
+	// .photo { //TODO: this url should be based on baseurl. Fixable?
+	// 	// background-image: url(/images/101_1612.JPG);
+	// 	height: 400px;
+	// 	width: 100%;
+	// 	background-size: cover;
 
-		border: thin solid black;
+	// 	// border: thin solid black;
 
-		$screen-size-changes: 1000 600;
-		$screen-size-changes-heights: 400 333;
+	// 	$screen-size-changes: 1000 600;
+	// 	$screen-size-changes-heights: 400 333;
 
-		@each $current-height in $screen-size-changes-heights {
-			$i: index($screen-size-changes-heights, $current-height);
-			$current-size-change: nth($screen-size-changes, $i);
+	// 	@each $current-height in $screen-size-changes-heights {
+	// 		$i: index($screen-size-changes-heights, $current-height);
+	// 		$current-size-change: nth($screen-size-changes, $i);
 
-			@media only screen and (min-width : #{$current-size-change}px) {
-				height: #{$current-height}px;
-			}
-		}
-	}
+	// 		@media only screen and (min-width : #{$current-size-change}px) {
+	// 			height: #{$current-height}px;
+	// 		}
+	// 	}
+	// }
 }
 
 .site-title {
@@ -111,9 +111,10 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
-	background-color: orchid;
+    // border-top: 1px solid black;
+    // padding: $spacing-unit 0;
+    padding-top: 15px;
+	// background-color: $background-color-text;
 }
 
 .footer-heading {
@@ -184,8 +185,9 @@
 .page-content {
 
 	.wrapper {
-		border: thin solid black;
-		background-color: orchid;
+        padding-top: 40px;
+		// border: thin solid black;
+		background-color: $background-color-text;
 	}
 }
 
