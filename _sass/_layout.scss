@@ -10,7 +10,6 @@
 	.wrapper { //TODO: this url should be based on baseurl. Fixable?
 		background-image: url(/images/101_1612.JPG);
 		height: 240px;
-		width: 100%;
 		background-size: cover;
 
 		border: thin solid black;
@@ -25,6 +24,14 @@
 			@media only screen and (min-width : #{$current-size-change}px) {
 				height: #{$current-height}px;
 			}
+		}
+
+		@include media-query($on-palm) {
+			padding: 0px;
+		}
+
+		@media only screen and (min-width : 800px) {
+			width: 100%
 		}
 	}
 }
@@ -111,9 +118,7 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
-	background-color: orchid;
 }
 
 .footer-heading {
@@ -185,7 +190,7 @@
 
 	.wrapper {
 		border: thin solid black;
-		background-color: orchid;
+		background-color: #B3FCB3;
 	}
 }
 
