@@ -43,6 +43,7 @@
 }
 
 .site-nav {
+    position: absolute;
     float: left;
     line-height: 56px;
 
@@ -51,7 +52,8 @@
     }
 
     .page-link {
-        color: $text-color;
+        // color: $text-color;
+        color: black;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -101,7 +103,6 @@
         .page-link {
             display: block;
             padding: 5px 10px;
-            color: black;
         }
     }
 }
