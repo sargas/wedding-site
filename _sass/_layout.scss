@@ -7,25 +7,26 @@
     // Positioning context for the mobile navigation icon
     position: relative;
 
-	.wrapper { //TODO: this url should be based on baseurl. Fixable?
-		background-image: url(/images/101_1612.JPG);
-		height: 240px;
-		background-size: cover;
+	// .photo { //TODO: this url should be based on baseurl. Fixable?
+	// 	// background-image: url(/images/101_1612.JPG);
+	// 	height: 400px;
+	// 	width: 100%;
+	// 	background-size: cover;
 
-		border: thin solid black;
+	// 	// border: thin solid black;
 
-		$screen-size-changes: 1000 600;
-		$screen-size-changes-heights: 400 333;
+	// 	$screen-size-changes: 1000 600;
+	// 	$screen-size-changes-heights: 400 333;
 
-		@each $current-height in $screen-size-changes-heights {
-			$i: index($screen-size-changes-heights, $current-height);
-			$current-size-change: nth($screen-size-changes, $i);
+	// 	@each $current-height in $screen-size-changes-heights {
+	// 		$i: index($screen-size-changes-heights, $current-height);
+	// 		$current-size-change: nth($screen-size-changes, $i);
 
-			@media only screen and (min-width : #{$current-size-change}px) {
-				height: #{$current-height}px;
-			}
-		}
-
+	// 		@media only screen and (min-width : #{$current-size-change}px) {
+	// 			height: #{$current-height}px;
+	// 		}
+	// 	}
+	// }
 		@include media-query($on-palm) {
 			padding: 0px;
 		}
@@ -33,7 +34,6 @@
 		@media only screen and (min-width : 800px) {
 			width: 100%
 		}
-	}
 }
 
 .site-title {
@@ -50,6 +50,7 @@
 }
 
 .site-nav {
+    position: absolute;
     float: left;
     line-height: 56px;
 
@@ -58,7 +59,8 @@
     }
 
     .page-link {
-        color: $text-color;
+        // color: $text-color;
+        color: black;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -118,7 +120,10 @@
  * Site footer
  */
 .site-footer {
-    padding: $spacing-unit 0;
+    // border-top: 1px solid black;
+    // padding: $spacing-unit 0;
+    padding-top: 15px;
+	// background-color: $background-color-text;
 }
 
 .footer-heading {
@@ -187,10 +192,10 @@
  * Page content
  */
 .page-content {
-
-	.wrapper {
-		border: thin solid black;
-		background-color: #B3FCB3;
+    .wrapper {
+        // border: thin solid black;
+        padding: $spacing-unit;
+		background-color: $background-color-text;
 	}
 }
 
