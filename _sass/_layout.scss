@@ -7,33 +7,13 @@
     // Positioning context for the mobile navigation icon
     position: relative;
 
-	// .photo { //TODO: this url should be based on baseurl. Fixable?
-	// 	// background-image: url(/images/101_1612.JPG);
-	// 	height: 400px;
-	// 	width: 100%;
-	// 	background-size: cover;
+	@include media-query($on-palm) {
+		padding: 0px;
+	}
 
-	// 	// border: thin solid black;
-
-	// 	$screen-size-changes: 1000 600;
-	// 	$screen-size-changes-heights: 400 333;
-
-	// 	@each $current-height in $screen-size-changes-heights {
-	// 		$i: index($screen-size-changes-heights, $current-height);
-	// 		$current-size-change: nth($screen-size-changes, $i);
-
-	// 		@media only screen and (min-width : #{$current-size-change}px) {
-	// 			height: #{$current-height}px;
-	// 		}
-	// 	}
-	// }
-		@include media-query($on-palm) {
-			padding: 0px;
-		}
-
-		@media only screen and (min-width : 800px) {
-			width: 100%
-		}
+	@media only screen and (min-width : 800px) {
+		width: 100%
+	}
 }
 
 .site-title {

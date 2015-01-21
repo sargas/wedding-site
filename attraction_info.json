@@ -1,0 +1,21 @@
+{
+	"Wedding Places": [
+		{
+			"name": "Fountain Blue",
+			"coordinates": { "lng": -87.887382, "lat": 42.011448},
+			"description": "Ceremony and Reception Location"
+		},
+		{
+			"name": "Radisson Hotel Chicago O'Hare",
+			"coordinates": { "lng": -87.88751100000002, "lat": 42.0105},
+			"description": "This hotel is next to our venue and offers a TODO rate for guests mentioning our wedding."
+		}
+	],
+	"Nearby Attractions": [
+		{
+			"name": "Allstate Arena",
+			"coordinates": { "lng": -87.88783000000001, "lat": 42.005258 },
+			"description": "This arena is home to Chicago Wolves hockey games and DePaul basketball game, as well as major music concert events"
+		}
+	]
+}
