@@ -4,12 +4,16 @@ title: Lodging
 permalink: /lodging/
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pharetra ex at lobortis tincidunt. In vulputate felis et nibh faucibus consectetur. Suspendisse sit amet elementum nisl. Sed ullamcorper eros justo, a suscipit justo luctus nec. Phasellus porttitor, ligula quis rhoncus imperdiet, nisi purus iaculis sem, et vulputate nunc sem eget mi. Donec at nulla id purus pulvinar molestie. Cras placerat ac velit sit amet eleifend. Nulla sagittis tincidunt est, sed pellentesque enim consectetur at. Quisque posuere lacus ut libero imperdiet vehicula. Praesent tristique, ipsum quis lobortis sodales, massa nisl porttitor arcu, in porta urna odio in risus. Sed malesuada risus sed iaculis consequat. Fusce mattis ac purus quis euismod.
+We have arranged a blocking of rooms for our guests at the
+<a href="http://www.radisson.com/des-plaines-hotel-il-60018/ildespla">Radisson Hotel Chicago O'Hare</a>, located conveniently next to our wedding venue. The rates for this block are:
 
-Quisque enim nisl, dignissim maximus magna at, feugiat suscipit magna. Morbi tincidunt mi eu lectus lobortis blandit. Cras eros sapien, congue feugiat cursus laoreet, aliquet nec nisi. Aliquam ut tristique sem, sed elementum est. Etiam pretium vehicula commodo. Morbi vel congue nisl. Integer in lectus eget justo cursus facilisis non id dui. Fusce consectetur risus vitae rhoncus laoreet. Nunc justo dui, laoreet ut cursus sit amet, posuere vitae mi. Proin vestibulum efficitur mattis. Nullam malesuada at velit sed imperdiet. Curabitur neque dolor, sollicitudin in fermentum a, varius posuere orci. Aenean at lacus at mauris imperdiet blandit.
+- $129/night for King Bed with Breakfast Buffet
+- $139/night for 2 Double Beds with Breakfast Buffet
 
-Pellentesque a faucibus odio. Quisque id velit mattis, lacinia est sit amet, elementum odio. In ex velit, viverra commodo eleifend eget, maximus imperdiet ipsum. Integer scelerisque magna vel turpis fringilla, at placerat nibh bibendum. Sed rutrum nulla augue, id aliquet diam condimentum sed. Vestibulum gravida risus non ipsum tempus, at tincidunt leo rhoncus. Nullam scelerisque dolor ut efficitur faucibus. Vestibulum eleifend arcu augue, non finibus ante iaculis ut. Fusce nec ipsum lacinia, dictum massa nec, rutrum nulla. Mauris condimentum, metus a suscipit cursus, nibh nisi gravida sapien, nec vehicula massa turpis id velit. Vivamus sed sem lobortis, tempor ex a, consequat libero. Donec lobortis porttitor metus ac aliquam. Donec sit amet diam porta, pharetra dolor ornare, volutpat nunc. Duis aliquam turpis sed ultrices vulputate. Donec purus arcu, imperdiet eleifend ante suscipit, sollicitudin sagittis tellus.
+Basic Info for this hotel:
 
-Vivamus dapibus ullamcorper dui ac ultrices. Mauris sed lorem in nunc iaculis convallis ut eget arcu. Quisque et ex volutpat, auctor lacus at, cursus nulla. Vivamus in rhoncus odio, sit amet laoreet elit. Nullam aliquam, tellus non maximus pulvinar, sapien orci scelerisque lorem, at ornare nisi felis sed diam. Maecenas malesuada sollicitudin bibendum. Nullam sit amet neque id turpis facilisis suscipit dignissim sit amet magna. Aliquam erat volutpat. In eget blandit felis. Suspendisse justo dolor, venenatis ut nibh non, fringilla lacinia libero. Morbi vestibulum mi turpis, eget aliquet felis convallis sed. Etiam sollicitudin ante nec egestas rutrum. Nam efficitur luctus dui, quis gravida nisl vulputate tempor.
-
-Nullam ligula leo, gravida vitae libero sit amet, congue molestie massa. Nunc ut urna justo. Aenean posuere risus nec dapibus mattis. Ut turpis enim, sodales molestie augue in, eleifend convallis sapien. Maecenas interdum aliquet orci, in dapibus tortor ornare in. Donec porta eros at augue aliquam maximus. Phasellus fringilla tempus gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+- The hotel is located at <a href="https://goo.gl/maps/nn8XC">1450 East Touhy Avenue, Des Plaines, IL 60018</a>
+- 24-Hour complimentary shuttle to O'Hare aiport
+- Smoking is prohibited by the hotel, and within 15 feet of the entrances by Illinois law
+- Rooms must be registered by May 3rd to lock in these rates. The hotel has warned us that the <a href="http://show.restaurant.org/">NRA Show</a> may push prices higher.
+- Please contact <a href="tel:18472968866">1-647-296-8866</a> or <a href="tel:18003333333">1-800-333-3333</a> to make a reservation, and mention the Kabiller / Booker Wedding.
