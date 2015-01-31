@@ -22,9 +22,9 @@ toggleDisplay = (attraction, marker, div) ->
 			content: createInfoWindowContent attraction
 			maxWidth: 320
 
-		marker.my_infowindow.open(marker.map, marker)
+		marker.my_infowindow.open marker.map, marker
 	else
-		marker.my_infowindow.close()
+		marker.my_infowindow.close
 		delete marker.my_infowindow
 
 addMarkerDesc = (attraction, marker, markersDiv) ->
