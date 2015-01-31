@@ -13,6 +13,19 @@
 	display: inline-block;
 	margin: 2pt;
 	padding: 0pt 3pt;
+	width: 46%;
+
+	vertical-align: top;
+
+	a:first-child {
+		font-weight: bold;
+	}
+
+	p {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
 }
 
 .marker-selected {

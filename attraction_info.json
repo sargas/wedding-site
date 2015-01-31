@@ -3,19 +3,78 @@
 		{
 			"name": "Fountain Blue",
 			"coordinates": { "lng": -87.887382, "lat": 42.011448},
-			"description": "Ceremony and Reception Location"
+			"description": "Ceremony and Reception Location",
+			"url": "http://www.fountainblue.com/"
 		},
 		{
 			"name": "Radisson Hotel Chicago O'Hare",
 			"coordinates": { "lng": -87.88751100000002, "lat": 42.0105},
-			"description": "This hotel is next to our venue and offers a TODO rate for guests mentioning our wedding."
+			"description": "This hotel is next to our venue and offers a discounted rate for guests mentioning our wedding.",
+			"url": "http://www.radisson.com/des-plaines-hotel-il-60018/ildespla"
 		}
 	],
 	"Nearby Attractions": [
 		{
 			"name": "Allstate Arena",
 			"coordinates": { "lng": -87.88783000000001, "lat": 42.005258 },
-			"description": "This arena is home to Chicago Wolves hockey games and DePaul basketball game, as well as major music concert events"
+			"description": "This arena is home to Chicago Wolves hockey games and DePaul basketball game, as well as major music concert events",
+			"url": "http://www.rosemont.com/allstate/"
+		},
+		{
+			"name": "MB Financial Park at Rosemont",
+			"coordinates": { "lng": -87.86731099999997, "lat": 41.978674000000005 },
+			"description": "A variety of dining and entertainment options, notably Muvico - a very fancy theatre experience",
+			"url": "http://www.rosemont.com/mbfinancialpark/"
+		},
+		{
+			"name": "Rivers Casino",
+			"coordinates": { "lng": -87.86428000000001, "lat": 41.997509 },
+			"description": "Local casino for northwest Chicago.",
+			"url": "http://www.riverscasino.com/desplaines"
+		},
+		{
+			"name": "McDonald's Museum",
+			"coordinates": { "lng": -87.88613399999997, "lat": 42.046093 },
+			"description": "A commemoration of the \"first\" McDonalds by what would become the modern McDonalds Corporation",
+			"url": "http://www.aboutmcdonalds.com/mcd/our_company/mcdonalds_history_timeline/museums/mcdonalds_number_one_store_museum.html"
+		}
+	],
+	"Chicago Attractions": [
+		{
+			"name": "Baha'i House of Worship",
+			"coordinates": { "lng": -87.68409500000001, "lat": 42.074296 },
+			"description": "There are only a handful of temples from the persecuted Bahá'í faith, and this is the only one in North America. It is open to the public every day, whether to worship in the auditorium, learn some history in the welcome center, or just enjoying the scenic garden.",
+			"url": "https://www.bahai.us/#section-five"
+		},
+		{
+			"name": "The Field Museum of Natural History",
+			"coordinates": { "lng": -87.61698000000001, "lat": 41.866261 },
+			"description": "A first-rate history museum. The 'Evolving Planet' is highly recommended.",
+			"url": "http://www.fieldmuseum.org/"
+		},
+		{
+			"name": "Lincoln Park Zoo",
+			"coordinates": { "lng": -87.63291700000002, "lat": 41.92089 },
+			"description": "One of the most influence men in Chicago once said, \"The Lakefront by right belongs to the people.\" The free Lincoln Park Zoo (and the parkland to the north and south of it) embody this concept.",
+			"url": "http://www.lpzoo.org/"
+		},
+		{
+			"name": "The Art Institute of Chicago",
+			"coordinates": { "lng": -87.62371300000001, "lat": 41.879584 },
+			"description": "An extensive art museum. If high school wasn't too long ago, you're likely to recognize famous pieces from art classes.",
+			"url": "http://www.artic.edu/"
+		},
+		{
+			"name": "Museum of Science and Industry",
+			"coordinates": { "lng": -87.58306600000003, "lat": 41.790573 },
+			"description": "Visit here. Really, if you are into coal, model trains, WWII subs, weather, farming, history,  .......",
+			"url": "http://www.msichicago.org/"
+		},
+		{
+			"name": "Mag Mile",
+			"coordinates": { "lng": -87.62495200000001, "lat": 41.883754 },
+			"description": "The notable shopping district. Horse-drawn carriages gives tours from the historic water tower at the north part of the mag mile.",
+			"url": "http://www.themagnificentmile.com/"
 		}
 	]
 }
