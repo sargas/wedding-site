@@ -24,7 +24,7 @@ toggleDisplay = (attraction, marker, div) ->
 
 		marker.my_infowindow.open marker.map, marker
 	else
-		marker.my_infowindow.close
+		marker.my_infowindow.close()
 		delete marker.my_infowindow
 
 addMarkerDesc = (attraction, marker, markersDiv) ->
@@ -70,6 +70,5 @@ initialize = ->
 
 				google.maps.event.addListener marker, 'click', ->
 					toggleDisplay attraction, marker, markerDiv
-
 
 google.maps.event.addDomListener window, 'load', initialize

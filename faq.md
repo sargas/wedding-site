@@ -13,12 +13,20 @@ permalink: /faq/
 Please try to arrive at the Fountain Blue by 4PM.
 
 #### Is there parking at the venue?
-Yes, parking is avalible and free for guests.
+Yes, parking is available and free for guests.
+
+### Ceremony/Reception
 
 #### Is there a dress code?
-From the <a href="http://wedding.theknot.com/wedding-planning/attending-wedding/articles/wedding-guest-attire-cheat-sheet.aspx">The Knot</a>'s definitions of formal attire, we are considering this a semiformal event. If you have oscar-worthy attire, feel free to bring something more comfortable (although we ask guests refrain from jeans or white wedding dresses).
+From the <a href="http://wedding.theknot.com/wedding-planning/attending-wedding/articles/wedding-guest-attire-cheat-sheet.aspx">The Knot</a>'s definitions of formal attire, we are considering this a semiformal event. If you have Oscar-worthy attire, feel free to bring something more comfortable (although we ask guests refrain from jeans or white wedding dresses).
 
-### Ceremony
+#### Will there be an open bar?
+No, but we will have a cash bar available.
 
-#### What does a Jewish wedding entail?
-TODO describe some things
+#### When is the reception?
+After the ceremony, we have a cocktail hour with several hor d'ourves.
+
+#### Can you accommodate Dairy-free / Nut-free / Kosher /&hellip; dietary restrictions?
+We'll try! If you need to avoid foods, the venue has given us the impression that they are flexible if given notice. If you need seperately cooked foods (i.e., Kosher or Halal), we'll work with you and our venue. Either way, we just need to be informed as soon as possible.
+
+Note that there will be no beef or pork served with other dinner option.
