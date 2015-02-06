@@ -11,11 +11,15 @@ createInfoWindowContent = (attraction) ->
 	Apple</a>"
 
 createInlineWindowContent = (attraction) ->
-	"<a href='#{attraction['url']}' target='_blank'>#{attraction['name']}</a>
-	<p>#{attraction['description']}</p>"
+	"<a class='marker-name' href='#{attraction['url']}' target='_blank'>#{attraction['name']}</a>
+	<p>#{attraction['description']}</p>
+	<span>Directions: <a
+	href='https://www.google.com/maps?saddr=My+Location&daddr=#{attraction['coordinates'].lat},#{attraction['coordinates'].lng}'>
+	Google</a> | <a href='http://maps.apple.com/?daddr=#{attraction['coordinates'].lat},#{attraction['coordinates'].lng}'>
+	Apple</a></span>"
 
-toggleDisplay = (attraction, marker, div) ->
-	div.toggleClass "marker-selected"
+toggleDisplay = (attraction, marker, desc_box) ->
+	desc_box.toggleClass "marker-selected"
 
 	unless marker.my_infowindow?
 		marker['my_infowindow'] = new google.maps.InfoWindow
@@ -27,18 +31,15 @@ toggleDisplay = (attraction, marker, div) ->
 		marker.my_infowindow.close()
 		delete marker.my_infowindow
 
-addMarkerDesc = (attraction, marker, markersDiv) ->
-	newDiv = $(
-		'<div/>',
-		class: 'marker-div'
-	)
-	newDiv.click ->
-		toggleDisplay attraction, marker, newDiv
+addMarkerDesc = (attraction, marker, parentDOM) ->
+	newDOM = $('<li/>')
+	newDOM.click ->
+		toggleDisplay attraction, marker, newDOM
 
-	$(createInlineWindowContent attraction).appendTo newDiv
+	$(createInlineWindowContent attraction).appendTo newDOM
 
-	newDiv.appendTo markersDiv
-	return newDiv
+	newDOM.appendTo parentDOM
+	return newDOM
 
 get_next_marker_icon = (current_num) ->
 	icons = ["purple", "yellow", "green"]
@@ -51,13 +52,13 @@ initialize = ->
 
 	map = new google.maps.Map $("#map-canvas")[0], mapOptions
 
-	markersDiv = $("#map-markers")
 	current_marker_icon = -1
 
 	$.getJSON "/attraction_info.json", (data) ->
 		$.each data, (cat, attractions) ->
 			current_marker_icon++
 			$("<h3>#{cat}</h3>").appendTo "#map-markers"
+			current_list = $("<ul class='marker-desc-list'/>").appendTo "#map-markers"
 
 			for attraction in attractions
 				marker = new google.maps.Marker
@@ -66,9 +67,9 @@ initialize = ->
 					title: attraction["name"]
 					icon: get_next_marker_icon(current_marker_icon)
 
-				markerDiv = addMarkerDesc attraction, marker, markersDiv
+				desc_box = addMarkerDesc attraction, marker, current_list
 
 				google.maps.event.addListener marker, 'click', ->
-					toggleDisplay attraction, marker, markerDiv
+					toggleDisplay attraction, marker, desc_box
 
 google.maps.event.addDomListener window, 'load', initialize

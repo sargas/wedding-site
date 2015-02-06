@@ -8,16 +8,21 @@
 	padding: 0;
 }
 
-.marker-div {
+.marker-desc-list li {
 	border: thin solid black;
+	border-radius: 3%;
 	display: inline-block;
 	margin: 2pt;
 	padding: 0pt 3pt;
 	width: 46%;
 
+	@media screen and (max-width: 600px) {
+		width: 100%;
+	}
+
 	vertical-align: top;
 
-	a:first-child {
+	.marker-name {
 		font-weight: bold;
 	}
 
@@ -26,8 +31,27 @@
 		text-overflow: ellipsis;
 		white-space: nowrap;
 	}
+
+	span {
+		display: none;
+	}
 }
 
-.marker-selected {
+.marker-desc-list {
+	@media screen and (max-width: 600px) {
+		margin: auto;
+	}
+}
+
+.marker-desc-list li.marker-selected {
 	font-weight: bold;
+
+	p {
+		white-space: normal;
+	}
+
+	span {
+		display: inline;
+		font-weight: normal;
+	}
 }
