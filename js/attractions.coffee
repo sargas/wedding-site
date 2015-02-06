@@ -5,18 +5,15 @@ createInfoWindowContent = (attraction) ->
 	"<h1>#{attraction['name']}</h1>
 	<p>#{attraction['description']}</p>
 	<a href='#{attraction['url']}' target='_blank'>View Website</a><br/>
-	Directions: <a
-	href='https://www.google.com/maps?saddr=My+Location&daddr=#{attraction['coordinates'].lat},#{attraction['coordinates'].lng}'>
-	Google</a> | <a href='http://maps.apple.com/?daddr=#{attraction['coordinates'].lat},#{attraction['coordinates'].lng}'>
-	Apple</a>"
+	<a href='http://maps.apple.com/?daddr=#{attraction['coordinates'].lat},#{attraction['coordinates'].lng}'>
+	Directions</a>"
 
 createInlineWindowContent = (attraction) ->
 	"<a class='marker-name' href='#{attraction['url']}' target='_blank'>#{attraction['name']}</a>
 	<p>#{attraction['description']}</p>
-	<span>Directions: <a
-	href='https://www.google.com/maps?saddr=My+Location&daddr=#{attraction['coordinates'].lat},#{attraction['coordinates'].lng}'>
-	Google</a> | <a href='http://maps.apple.com/?daddr=#{attraction['coordinates'].lat},#{attraction['coordinates'].lng}'>
-	Apple</a></span>"
+	<span>
+	<a href='http://maps.apple.com/?daddr=#{attraction['coordinates'].lat},#{attraction['coordinates'].lng}'>
+	Directions</a></span>"
 
 toggleDisplay = (attraction, marker, desc_box) ->
 	desc_box.toggleClass "marker-selected"
