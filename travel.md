@@ -7,7 +7,7 @@ permalink: /travel/
 Located near the fifth busiest airport in the world; the intersection of the Tri-State Tollway (I-294) and Jane Adams Memorial Tollway (I-90); and within region's extensive public transportation network, our venue should be accessible for all vistors.
 
 # Flying
-Almost all passenger traffic in Chicago is via O'Hare Interational Airport (ORD) or Midway International Airport (MDW). Midway is a Southwest Airlines hub about 30-40 minutes south of the venue, O'Hare is much bigger airport very close to the venue. Almost every hotel in the area offers complementary shuttles to/from O'Hare.
+Almost all passenger traffic in Chicago is via O'Hare Interational Airport (ORD) or Midway International Airport (MDW). Midway is a Southwest Airlines hub about 30-40 minutes south of the venue, while O'Hare is much bigger airport very close to the venue. Almost every hotel in the area offers complementary shuttles to/from O'Hare.
 
 # Driving / Public Transit / Biking
 The venue is located at 2300 Mannheim Rd, Des Plaines, IL 60018. See map below to use Google Maps for directions.

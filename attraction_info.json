@@ -17,7 +17,7 @@
 		{
 			"name": "Allstate Arena",
 			"coordinates": { "lng": -87.88783000000001, "lat": 42.005258 },
-			"description": "This arena is home to Chicago Wolves hockey games and DePaul basketball game, as well as major music concert events",
+			"description": "This arena is home to Chicago Wolves hockey games and DePaul basketball games, as well as major music concert events",
 			"url": "http://www.rosemont.com/allstate/"
 		},
 		{
@@ -43,7 +43,7 @@
 		{
 			"name": "Baha'i House of Worship",
 			"coordinates": { "lng": -87.68409500000001, "lat": 42.074296 },
-			"description": "There are only a handful of temples from the persecuted Bahá'í faith, and this is the only one in North America. It is open to the public every day, whether to worship in the auditorium, learn some history in the welcome center, or just enjoying the scenic garden.",
+			"description": "There are only a handful of temples from the persecuted Bahá'í faith, and this is the only one in North America. It is open to the public every day, whether to worship in the auditorium, learn some history in the welcome center, or just enjoy the scenic garden.",
 			"url": "https://www.bahai.us/#section-five"
 		},
 		{
@@ -55,7 +55,7 @@
 		{
 			"name": "Lincoln Park Zoo",
 			"coordinates": { "lng": -87.63291700000002, "lat": 41.92089 },
-			"description": "One of the most influence men in Chicago once said, \"The Lakefront by right belongs to the people.\" The free Lincoln Park Zoo (and the parkland to the north and south of it) embody this concept.",
+			"description": "One of the most influential men in Chicago once said, \"The Lakefront by right belongs to the people.\" The free Lincoln Park Zoo (and the parkland to the north and south of it) embody this concept.",
 			"url": "http://www.lpzoo.org/"
 		},
 		{
@@ -73,7 +73,7 @@
 		{
 			"name": "Mag Mile",
 			"coordinates": { "lng": -87.62495200000001, "lat": 41.883754 },
-			"description": "The notable shopping district. Horse-drawn carriages gives tours from the historic water tower at the north part of the mag mile.",
+			"description": "The notable shopping district. Horse-drawn carriages gives tours from the historic Water Tower at the north part of the Mag Mile.",
 			"url": "http://www.themagnificentmile.com/"
 		}
 	]
