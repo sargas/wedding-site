@@ -19,7 +19,11 @@ body {
     line-height: $base-line-height;
     font-weight: 300;
     color: $text-color;
-    background-color: $background-color;
+	background: url(/images/background.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
     -webkit-text-size-adjust: 100%;
 }
 
@@ -44,13 +48,24 @@ img {
     vertical-align: middle;
 }
 
-img#title_img {
-	display: block;
+#title_img {
 	margin: auto;
 	max-width: 100%;
+	display: block;
+	width: 800px;
+
+	img {
+		width: 100%;
+	}
+
+	ul {
+		margin-left: auto;
+	}
 }
 
-
+.site-nav {
+	z-index: 1;
+}
 
 /**
  * Figures

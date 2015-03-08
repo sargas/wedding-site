@@ -6,8 +6,8 @@ Website for wedding stuff
 TODO
 ----
 - Fill out FAQ more
-- Make Attractions page have a cards-like UI
 - Add swirls in background
+- Make sure only one infowindow exists in Attractions
 - Go through each page with someone and check wording for awkwardness, spelling, humor
 	- Travel
 	- Lodging

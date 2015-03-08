@@ -19,7 +19,29 @@
 				{% endfor %}
 			</div>
 		</nav>
-
 	</div>
-	<img src="{{ '/images/101_1612.JPG' | prepend: site.baseurl }}" id="title_img"/>
+	<div id="title_img">
+		<div><img src="{{ '/images/title/101_1612.JPG' | prepend: site.baseurl }}" /></div>
+		<div><img src="{{ '/images/title/101_1603.JPG' | prepend: site.baseurl }}" /></div>
+		<div><img src="{{ '/images/title/101_1607.JPG' | prepend: site.baseurl }}" /></div>
+		<div><img src="{{ '/images/title/101_1608.JPG' | prepend: site.baseurl }}" /></div>
+		<div><img src="{{ '/images/title/101_1644.JPG' | prepend: site.baseurl }}" /></div>
+		<div><img src="{{ '/images/title/101_1676.JPG' | prepend: site.baseurl }}" /></div>
+		<div><img src="{{ '/images/title/10535359_10152521627785115_467005826_o.jpg' | prepend: site.baseurl }}" /></div>
+	</div>
 </header>
+<script>
+$('#title_img').slick({
+	dots: true,
+	infinite: true,
+	speed: 300,
+	fade: true,
+	cssEase: 'linear',
+	adaptiveHeight: true,
+	autoplay: true,
+	autoplaySpeed: 10000,
+	arrows: false,
+	swipeToSlide: true,
+});
+
+</script>

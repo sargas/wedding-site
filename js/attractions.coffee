@@ -66,7 +66,8 @@ initialize = ->
 
 				desc_box = addMarkerDesc attraction, marker, current_list
 
-				google.maps.event.addListener marker, 'click', ->
-					toggleDisplay attraction, marker, desc_box
+				do (attraction, marker, desc_box) ->
+					google.maps.event.addListener marker, 'click', ->
+						toggleDisplay attraction, marker, desc_box
 
 google.maps.event.addDomListener window, 'load', initialize
